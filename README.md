@@ -2,9 +2,9 @@
 
 > A React input with an option to pick emojis
 
-[![NPM](https://img.shields.io/npm/v/react-input-emoji.svg)](https://www.npmjs.com/package/react-input-emoji) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-input-emoji-native.svg)](https://www.npmjs.com/package/react-input-emoji-native) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<a href="https://github.com/onuryilmazdev/react-input-emoji-native/"><img width="500" src="https://github.com/onuryilmazdev/react-input-emoji-native/assets/images/screely-1566732641740.png" alt="Demo"></a>
+<a href="https://github.com/onuryilmazdev/react-input-emoji-native/"><img width="500" src="https://cesarwbr.github.io/react-input-emoji/assets/images/screely-1566732641740.png" alt="Demo"></a>
 
 ## About
 
