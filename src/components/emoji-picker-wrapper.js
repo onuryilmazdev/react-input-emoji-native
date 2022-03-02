@@ -24,6 +24,7 @@ import EmojiPicker from "./emoji-picker";
  * @property {boolean} disableRecent
  * @property {boolean} native
  * @property {object[]=} customEmojis
+ * @property {object[]=} i18n
  * @property {(fn: SanitizeFn) => void} addSanitizeFn
  * @property {(fn: PolluteFn) => void} addPolluteFn
  * @property {(html: string) => void} appendContent
@@ -36,6 +37,7 @@ const EmojiPickerWrapper = ({
   disableRecent,
   customEmojis,
   native,
+  i18n,
   addSanitizeFn,
   addPolluteFn,
   appendContent
@@ -115,6 +117,7 @@ const EmojiPickerWrapper = ({
                 disableRecent={disableRecent}
                 customEmojis={customEmojis}
                 native={native}
+                i18n={i18n}
               />
             </div>
           </div>

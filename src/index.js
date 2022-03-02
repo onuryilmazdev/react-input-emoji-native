@@ -56,6 +56,7 @@ import { usePollute } from "./hooks/user-pollute";
  * @property {number} fontSize
  * @property {string} fontFamily
  * @property {object[]=} customEmojis
+ * @property {object[]=} i18n
  * @property {(text: string) => Promise<MetionUser[]>=} searchMention
  */
 
@@ -87,6 +88,7 @@ function InputEmoji(
     borderRadius,
     borderColor,
     fontSize,
+    i18n,
     fontFamily
   },
   ref
@@ -186,7 +188,18 @@ function InputEmoji(
     return () => {
       unsubscribe();
     };
-  }, [addEventListener, cleanOnEnter, emitChange, listeners.enter.currentListerners.length, maxLength, onEnter, onKeyDown, sanitize, sanitizedTextRef, updateHTML]);
+  }, [
+    addEventListener,
+    cleanOnEnter,
+    emitChange,
+    listeners.enter.currentListerners.length,
+    maxLength,
+    onEnter,
+    onKeyDown,
+    sanitize,
+    sanitizedTextRef,
+    updateHTML
+  ]);
 
   useEffect(() => {
     /** */
@@ -291,6 +304,7 @@ function InputEmoji(
         addPolluteFn={addPolluteFn}
         appendContent={appendContent}
         native={true}
+        i18n={i18n}
       />
     </div>
   );
